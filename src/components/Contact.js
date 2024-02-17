@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import pfp from "../documents/pfp.jpg";
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
@@ -110,8 +111,9 @@ const Card = () => {
               </td>
             </tr>
           </table>
-          <p>
-          </p>
+          <div class="bottom-link">
+            <Link to="/projects">Check out some of my projects!</Link>
+          </div>
         </div>
       </div>
     </div>

@@ -170,3 +170,59 @@ a:hover {
   padding: 5px; /* Add padding to table cells for better readability */
   border: .1px solid #ddd; /* Add border to table cells */
 }
+
+.gitProjects {
+  padding: 10px 16px;
+  margin: 20px auto; /* Center the element horizontally */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fafafa;
+  border-radius: 100px; /* Add rounded border */
+}
+
+.gitProjects:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.gitProjects h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.gitProjects a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.blue {
+  color: #00008B;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 5px 0 5px 0;
+}
+
+.bottom-link {
+  margin: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-link a {
+  border-radius: 10px;
+  color: #00008B;
+}
+
+.bottom-link a:hover {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
